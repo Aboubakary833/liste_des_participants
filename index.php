@@ -31,7 +31,7 @@
     </form>
     <p><span>ou</span></p>
     <div class="crateAccount">
-        <a href="signIn.php"> créer le compte admin</a>
+        <a href="signup.php"> créer le compte admin</a>
     </div>
 
     <script src="authentification.js"></script>

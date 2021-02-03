@@ -4,11 +4,11 @@ $data = array_map(function ($el) {
     return htmlspecialchars($el);
 }, $_POST);
 
-count($data) > 2 ? signIn($data) : logIn($data);
+count($data) > 2 ? signup($data) : logIn($data);
 
 //Fonction d'inscription
 
- function signIn($formData){
+ function signup($formData){
     require_once 'connexion.php';
      $toAdd = array();
      $err = array('nom' => 'Vous avez entrez deux mot de passe différents!');
